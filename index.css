@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgba(230, 230, 250, 0.357);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: linear-gradient(to left, rgba(242, 230, 250, 0.786), rgba(234, 220, 245, 0.417));
+    margin: 20px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: 50vh;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.inputbox{
+    
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+.counter{
+    width: 50px;
+    padding: 10px;
+    color: grey;
+    /* box-shadow: 0px 3px 15px rgbs(84,84,84,0.1); */
+    font-size: 30px;
+    margin-left: 170%;
+    cursor: pointer;
+   
+}
+
+.btntag{
+   
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+   
+   
+}
+.addBtn{
+    background-color: rgba(255, 0, 0, 0.848);
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.resetBtn{
+    background-color: rgba(98, 0, 255, 0.111);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.addBtn:hover{
+    color: beige;
+    background-color: black;
+}
+.resetBtn:hover{
+    color: beige;
+    background-color:blueviolet;
+}
